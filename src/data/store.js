@@ -5,5 +5,9 @@ import { reactive } from "vue";
 //le proprietà dell'oggetto reactive sono proprietà reattive
 export const store = reactive({
   apiUrl: "https://rickandmortyapi.com/api/character",
-  charactersList: []
+  charactersList: [],
+  nameToSearch: "",
+  statusToSearch: "",
+  isLoading: true,
+  statusList: []
 })
