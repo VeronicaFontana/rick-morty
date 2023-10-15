@@ -8,6 +8,6 @@ export const store = reactive({
   charactersList: [],
   nameToSearch: "",
   statusToSearch: "",
-  isLoading: true,
+  isLoading: false,
   statusList: []
 })
